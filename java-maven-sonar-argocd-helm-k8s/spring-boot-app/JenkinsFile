@@ -8,7 +8,7 @@ pipeline {
     environment {
         DOCKER_CREDENTIALS_ID = 'docker'
         DOCKER_IMAGE_NAME = "shivakumar139/ultimate-cicd:${BUILD_NUMBER}"
-        SONAR_SCANNER_VERSION = '4.6.0.2311' // Set the SonarQube Scanner version to use
+        SONAR_SCANNER_VERSION = '3.9.1.2184' // Set the SonarQube Scanner version to use
     }
     stages {
         stage('Checkout') {
