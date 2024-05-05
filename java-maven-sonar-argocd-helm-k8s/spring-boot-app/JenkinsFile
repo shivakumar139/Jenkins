@@ -7,7 +7,7 @@ pipeline {
   }
   environment {
       DOCKER_CREDENTIALS_ID = 'docker'
-      DOCKER_IMAGE = "shivakumar139/ultimate-cicd:${BUILD_NUMBER}"
+      DOCKER_IMAGE_NAME = "shivakumar139/ultimate-cicd:${BUILD_NUMBER}"
     }
   stages {
     stage('Checkout') {
